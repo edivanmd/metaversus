@@ -1,7 +1,7 @@
 'use client';
 
 const Navbar = () => (
-  <nav className="bg-red-500">
+  <nav>
     Navbar
   </nav>
 );
