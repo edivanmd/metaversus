@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { slideIn, staggerContainer, textVar, textVariant2 } from '../utils/motion';
+import { slideIn, staggerContainer, textVar } from '../utils/motion';
 import styles from '../styles';
 
 const Hero = () => (
@@ -10,7 +10,7 @@ const Hero = () => (
       variants={staggerContainer}
       initial="hidden"
       whileInView="show"
-      viewport={{ once : false, amount: 0.25}}
+      viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} flex mx-auto flex-col`}
     >
       <div className="flex flex-col justify-center items-center relative z-10">
