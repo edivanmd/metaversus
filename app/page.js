@@ -5,14 +5,14 @@ const Page = () => (
   <div className="bg-dark-blue overflow-hidden">
     <Navbar />
     <Hero />
-    <About />
-    <Explore />
-    <GetStarted />
-    <WhatsNew />
-    <World />
-    <Insights />
-    <Feedback />
-    <Footer />
+    {/* <About /> */}
+    {/* <Explore /> */}
+    {/* <GetStarted /> */}
+    {/* <WhatsNew /> */}
+    {/* <World /> */}
+    {/* <Insights /> */}
+    {/* <Feedback /> */}
+    {/* <Footer /> */}
   </div>
 );
 
