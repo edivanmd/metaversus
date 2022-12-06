@@ -96,7 +96,7 @@ export const fadeIn = (direction, type, delay, duration) => ({
   },
 });
 
-export const planetVariants = (direction) => ({
+export const planetVar = (direction) => ({
   hidden: {
     x: direction === 'left' ? '-100%' : '100%',
     rotate: 120,
@@ -105,9 +105,7 @@ export const planetVariants = (direction) => ({
     x: 0,
     rotate: 0,
     transition: {
-      type: 'spring',
-      duration: 1.8,
-      delay: 0.5,
+      type: 'spring', duration: 1.8, delay: 0.5,
     },
   },
 });
@@ -121,10 +119,7 @@ export const zoomIn = (delay, duration) => ({
     scale: 1,
     opacity: 1,
     transition: {
-      type: 'tween',
-      delay,
-      duration,
-      ease: 'easeOut',
+      type: 'tween', delay, duration, ease: 'easeOut',
     },
   },
 });
