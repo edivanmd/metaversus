@@ -62,7 +62,7 @@ export const textContainer = {
   }),
 };
 
-export const textVariant2 = {
+export const textVar2 = {
   hidden: {
     opacity: 0,
     y: 20,
