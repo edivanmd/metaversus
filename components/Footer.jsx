@@ -8,11 +8,11 @@ import styles from '../styles';
 
 const Footer = () => (
   <motion.footer
-  variants={footerVariants}
-  initial="hidden"
-  whileInView="show"
-  className={`${styles.xPaddings} py-8 relative`}
->
+    variants={footerVariants}
+    initial="hidden"
+    whileInView="show"
+    className={`${styles.xPaddings} py-8 relative`}
+    >
     <div className="footer-gradient" />
     <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
       <div className="flex items-center justify-between flex-wrap gap-5">
