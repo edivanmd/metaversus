@@ -1,4 +1,5 @@
 import Navbar from './Navbar';
+import ProgressBar from './ProgressBar';
 import { TypingText, TitleText } from './CustomTexts';
 import ExploreCard from './ExploreCard';
 import StartSteps from './StartSteps';
@@ -7,6 +8,7 @@ import InsightCard from './InsightCard';
 import Footer from './Footer';
 
 export {
+  ProgressBar,
   Navbar,
   TitleText,
   TypingText,
