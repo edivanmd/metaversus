@@ -105,3 +105,17 @@
   background: #65c4fa;
   filter: blur(150px);
 }
+
+.pinMap::before{
+    content: '';
+    --size: 50px;
+
+    position: absolute;
+    width: var(--size);
+    height: calc(var(--size) * 1.44);
+    background-color: #5D6680;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    transform: rotate(180deg);
+    top: 10px;
+    left: 10px;
+}
