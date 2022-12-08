@@ -1,6 +1,6 @@
 export const menuLinks = [
-  { name: 'home', url: '/#home' },
-  { name: 'about', url: '/#about' },
+  { name: 'Home', url: '/#home' },
+  { name: 'About', url: '/#about' },
   { name: 'Explore', url: '/#explore' },
   { name: 'People on The World', url: '/#people-on-the-world' },
   { name: 'Get Started', url: '/#get-started' },

@@ -10,7 +10,7 @@ const ProgressBar = () => {
   );
 
   return (
-    <motion.div className=" progress-bar bg-gradient-to-r from-purple-500 to-pink-500" style={{ scaleX }} />
+    <motion.div className="blur-[1px] progress-bar bg-gradient-to-r from-purple-500 to-pink-500" style={{ scaleX }} />
   );
 };
 

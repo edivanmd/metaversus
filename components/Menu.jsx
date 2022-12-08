@@ -1,28 +1,13 @@
 'use client';
 
-import Link from 'next/link';
-
-import { motion } from 'framer-motion';
-import { navVar } from '../utils/motion';
-import { menuLinks } from '../constants';
-
 import styles from '../styles';
 
-const Menu = ({ handleNavbar }) => (
-  <motion.div
-    variants={navVar}
-    initial="hidden"
-    whileInView="show"
-    className={`${styles.xPaddings} py-8 relative`}
-  >
-    <ul>
-      {menuLinks.map((link, index) => (
-        <li onClick={handleNavbar} key={index} className="p-4 hover:text-gray-500 text-4xl">
-          <Link href={link.url}> {link.name} </Link>
-        </li>
-      ))}
-    </ul>
-  </motion.div>
+const Menu = ({ handleNavbar, name, url }) => (
+  <li className="flex text-left">
+    <a onClick={handleNavbar} href={url} className="font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 text-xl md:text-4xl ease-in duration-300 hover:scale-110 hover:underline "> 
+      &gt;{name}
+    </a>
+  </li>
 );
 
 export default Menu;
