@@ -1,3 +1,14 @@
+export const menuLinks = [
+  { name: 'home', url: '/#home' },
+  { name: 'about', url: '/#about' },
+  { name: 'Explore', url: '/#explore' },
+  { name: 'People on The World', url: '/#people-on-the-world' },
+  { name: 'Get Started', url: '/#get-started' },
+  { name: "What's New", url: '/#whats-new' },
+  { name: 'Insights', url: '/#insights' },
+  { name: 'Feedback', url: '/#feedback' },
+];
+
 export const exploreWorlds = [
   {
     id: 'world-1',

@@ -7,7 +7,7 @@ import { fadeIn, staggerContainer } from '../utils/motion';
 import styles from '../styles';
 
 const World = () => (
-  <section className={`${styles.paddings} relative z-10`}>
+  <section id="people-on-the-world" className={`${styles.paddings} relative z-10`}>
     <motion.div
       variants={staggerContainer}
       initial="hidden"

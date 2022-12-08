@@ -1,6 +1,6 @@
 'use client';
 
-import { motion,  useScroll, useSpring } from 'framer-motion';
+import { motion, useScroll, useSpring } from 'framer-motion';
 
 const ProgressBar = () => {
   const { scrollYProgress } = useScroll();
@@ -10,7 +10,7 @@ const ProgressBar = () => {
   );
 
   return (
-    <motion.div className="progress-bar bg-gradient-to-r from-purple-500 to-pink-500" style={{ scaleX }} />
+    <motion.div className=" progress-bar bg-gradient-to-r from-purple-500 to-pink-500" style={{ scaleX }} />
   );
 };
 

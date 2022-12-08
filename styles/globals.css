@@ -52,6 +52,14 @@
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
+.glassmorphism-02 {
+  background: rgba(249, 22, 143, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(105, 2, 111, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  /* border: 1px solid rgba(130, 6, 124, 0.18); */
+}
+
 .gradient-03 {
   position: absolute;
   width: 404px;
@@ -107,25 +115,25 @@
 }
 
 .pinMap::before{
-    content: '';
-    --size: 50px;
+  content: '';
+  --size: 50px;
 
-    position: absolute;
-    width: var(--size);
-    height: calc(var(--size) * 1.44);
-    background-color: #5D6680;
-    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
-    transform: rotate(180deg);
-    top: 10px;
-    left: 10px;
+  position: absolute;
+  width: var(--size);
+  height: calc(var(--size) * 1.44);
+  background-color: #5D6680;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  transform: rotate(180deg);
+  top: 10px;
+  left: 10px;
 }
 
 .progress-bar {
   position: fixed;
-  z-index: 100;
+  z-index: 150;
   top: 0;
   left: 0;
   right: 0;
-  height: 10px;
+  height: 3px;
   transform-origin: 0%;
 }

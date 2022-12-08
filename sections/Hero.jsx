@@ -5,15 +5,15 @@ import { slideIn, staggerContainer, textVar } from '../utils/motion';
 import styles from '../styles';
 
 const Hero = () => (
-  <section className={`${styles.yPaddings} sm:pl-16 pl-6`}>
+  <section id="home" className={`${styles.yPaddings} sm:pl-16 pl-6`}>
     <motion.div
       variants={staggerContainer}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: false, amount: 0.25 }}
+      viewport={{ once: true, amount: 0.25 }}
       className={`${styles.innerWidth} flex mx-auto flex-col`}
     >
-      <div className="flex flex-col justify-center items-center relative z-10">
+      <div className="flex flex-col justify-center items-center relative z-10 mt-10">
 
         {/* Title H1 */}
         <motion.h1 variants={textVar(1.1)} className={styles.heroHeading}> Metaverse </motion.h1>
